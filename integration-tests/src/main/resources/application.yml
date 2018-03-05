@@ -1,0 +1,9 @@
+spring.cloud.stream.binders.kafka.defaultCandidate: false
+#spring.cloud.stream.binders.rabbit.defaultCandidate: false
+spring.cloud.stream.bindings.input.destination: demo
+spring.cloud.stream.bindings.output.destination: demo
+spring.cloud.stream.bindings.test.binder: test
+logging:
+  level:
+    org.springframework.messaging: TRACE
+    org.springframework.integration: TRACE
