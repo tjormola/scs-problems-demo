@@ -1,1 +1,2 @@
 spring.cloud.stream.binders.kafka.defaultCandidate: true
+spring.cloud.stream.kafka.binder.headerMapperBeanName: customKafkaHeaderMapper
